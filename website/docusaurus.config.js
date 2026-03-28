@@ -6,7 +6,7 @@ const config = {
   title: 'pdfme',
   url: 'https://pdfme.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
   organizationName: 'pdfme',
@@ -15,7 +15,7 @@ const config = {
   trailingSlash: false,
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja'],
+    locales: ["en", "zh-Hans"],
     localeConfigs: {
       en: {
         label: 'English',
